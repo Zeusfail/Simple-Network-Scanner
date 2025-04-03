@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="simple-network-scanner",
-    version="1.0.3",
+    version="1.0.4",
     author="Dylan Gallemard",
     author_email="dylangallemard@gmail.com",
     description="A comprehensive network port scanner with vulnerability detection",
