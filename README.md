@@ -40,7 +40,7 @@ pip install simple-network-scanner
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/simple-network-scanner.git
+git clone https://github.com/zeusfail/simple-network-scanner.git
 cd simple-network-scanner
 pip install -e .
 ```
