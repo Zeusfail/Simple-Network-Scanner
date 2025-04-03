@@ -145,7 +145,7 @@ def stealth_worker(ip, port_queue, results, print_lock, timeout=2, rate_limit=0,
             port_queue.task_done()
 
 def stealth_scan_range(ip, start_port, end_port, threads=None, timeout=2, 
-                       rate_limit=0, quiet=False, show_progress=True):
+                       rate_limit=0, quiet=False, show_progress=True,  callback=None):
     """
     Scans a range of ports on an IP address using stealthy SYN scans.
     

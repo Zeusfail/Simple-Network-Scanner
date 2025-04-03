@@ -43,7 +43,7 @@ def main():
     port_group = parser.add_mutually_exclusive_group(required=True)
     port_group.add_argument('-p', '--ports', dest='port_range',
                           help='Port range to scan (e.g., 1-1000 or 80,443,8080)')
-    port_group.add_argument('--top-ports', dest='top_ports', type=int, choices=[10, 20, 50, 100, 1000],
+    port_group.add_argument('--top-ports', dest='top_ports', type=int, choices=[10, 20, 50, 100],
                           help='Scan N most common ports')
     
     # Options de scan

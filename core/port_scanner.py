@@ -214,7 +214,7 @@ def scan_ports(ip: str, ports: Union[List[int], range], timeout: float = 1,
     return sorted(results, key=lambda x: x['port'])
 
 
-def scan_specific_ports(ip: str, ports: List[int], timeout: float = 1, quiet: bool = False) -> List[Dict[str, Any]]:
+def scan_specific_ports(ip: str, ports: List[int], timeout: float = 1, quiet: bool = False,  callback=None) -> List[Dict[str, Any]]:
     """
     Scanne une liste spécifique de ports sur une adresse IP donnée.
     
