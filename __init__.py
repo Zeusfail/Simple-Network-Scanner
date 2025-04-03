@@ -12,11 +12,11 @@ Features:
 - Multiple output formats (TXT, JSON, HTML)
 - Multi-threaded scanning for speed
 
-Version: 1.0.0
-Author: Gallemard Dyla
-License: MIT
+Version: 1.0.3
+Author: Gallemard Dylan
+License: GNU General Public License v3 (GPLv3)
 """
 
-__version__ = '1.0.0'
+__version__ = '1.0.3'
 __author__ = 'Gallemard Dylan'
-__license__ = 'MIT'
+__license__ = 'GNU General Public License v3 (GPLv3)'

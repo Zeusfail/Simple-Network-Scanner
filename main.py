@@ -18,7 +18,17 @@ from rich.text import Text
 # Créer une instance console
 console = Console()
 
+def clear_console():
+    """Clear the console screen based on the OS platform."""
+    if sys.platform == "win32":
+        os.system('cls')
+    else:
+        os.system('clear')
+
 def main():
+    # Clear the console at startup
+    clear_console()
+
     # Utiliser argparse pour gérer les arguments en ligne de commande
     parser = argparse.ArgumentParser(
         description='Network Port Scanner with Service Detection and Vulnerability Checks',

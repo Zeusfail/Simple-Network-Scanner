@@ -5,17 +5,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="simple-network-scanner",
-    version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    version="1.0.3",
+    author="Dylan Gallemard",
+    author_email="dylangallemard@gmail.com",
     description="A comprehensive network port scanner with vulnerability detection",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zeusfail/simple-network-scanner",
+    url="https://github.com/Zeusfail/Simple-Network-Scanner",
     packages=find_packages(),
+    py_modules=["main"],  
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
@@ -25,7 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "netscanner=main:main",
+            "netscanner=main:main", 
         ],
     },
 )
