@@ -13,7 +13,7 @@ Features:
 - Multi-threaded scanning for speed
 
 Version: 1.0.0
-Author: Your Name
+Author: Gallemard Dyla
 License: MIT
 """
 
